@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+}
+
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #009b4e;
+    display: flex;
+    text-align: center;
+    position: fixed;
+   
+}
+.head-1{
+    width: 15%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.head-1 img{
+    width: 130px;
+}
+.head-2{
+    width: 50%;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+}
+.head-2 li{
+    padding:0px 20px;
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+}
+.head-2 ul,li:hover{
+    color: black;
+    cursor: pointer;
+    
+}.head-2 li:hover{
+    border-bottom: solid 5px;
+    padding-bottom: 5px;
+}
+.head-3{
+    width: 35%;
+    color: white;
+    height: 90px;
+    align-items: center;
+    
+}
+.head-3 i{
+    width: 45px;
+    height: 90px;
+    align-items: center;
+    padding-top: 40px;
+}
+.head-3 i:hover{
+    color: black;
+}
+.fa-brands{
+    width: 60px;
+    height: 30px;
+}
+
+/*section-1*/
+
+.section-1{
+    display: flex;
+    width: 100%;
+    height: 690px;
+    background-color: black;
+    padding-top: 90px;
+    
+}
+.section-1-1{
+    width: 50%;
+    height:600px;
+    color: white;
+
+}
+
+.section-1-2{
+    width: 50%;
+    height:600px;
+    background: url(images/sprite-lymonade-bottle.png);
+   background-size: cover;
+ 
+}
+.sprite-2{
+    width: 445px;
+    height: 245px;
+    object-fit: contain;
+    padding-left: 65px;
+}
+.section-1-11{
+    color: white;
+   font-weight: 900;
+   font-size: 40px;
+   padding-left: 65px;
+   font-family: AktivGroteskCdBlack;
+ margin-top:-60px ;
+ padding-bottom: 70px;
+ 
+}
+.LEARNMORE{
+width: 170px;
+height: 40px;
+color: black;
+background-color: yellow;
+font-weight: 900;
+border: none;
+margin-left: 65px;
+
+}
+.LEARNMORE:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/*section-2*/
+.section-2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding-top: 50px;
+
+}
+
+.section-2-1-1{
+    
+    width: 50%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    padding-left: 95px;
+}
+.section-2-1-2{
+    
+    width: 50%;
+    height: 400px;
+    font-size: 35px;
+    padding-left: 70px;
+   
+}
+.p1{
+    font-size: 25px;
+    font-weight: 900;
+    padding-bottom: 50px;
+
+}
+.SHOPNOW{
+    width: 170px;
+height: 35px;
+color: black;
+background-color: yellow;
+font-weight: 900;
+border: none;
+
+}
+.SHOPNOW:hover{
+background-color: rgb(48, 48, 48);
+color: white;
+cursor: pointer;
+}
+.section-3{
+    width:100% ;
+    height: 400px;
+    display: flex;
+}
+.section-3-1{
+width: 50%;
+height: 400px;
+
+}
+.p2{
+    padding-top: 135px;
+    font-size: 55px;
+    font-weight: 900;
+    padding-left: 85px;
+    color: rgb(0,150,57);
+   
+}
+.section-3-2{
+    width: 50%;
+    height: 400px;
+    background-image: url(https://www.sprite.com/content/dam/nagbrands/us/sprite/en/2531-22-sprite-zero-sugar-vis-refresh/home/all-clear-from-here.png);
+    background-size: contain;
+   margin-left: 150PX;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #009b4e;
+    
+}
+.foot-1{
+    /* margin: auto; */
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+.foot-1-1{
+    margin: 0px 10px;
+    float: left;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.foot-1-1 img{
+    width: 40%;
+}
+.foot-1-2{
+    margin: 0px 10px;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+.foot-1-2 p{
+    font-size: 14px;
+    font-family: system-ui;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    padding: 80px 0px 40px 0px;
+}
+.s-m{
+    display: flex;
+    justify-content: center;
+}
+.foot-1-2 i{
+    width: max-content;
+    height: max-content;
+    padding: 0px 5px;
+    color: white;
+}
+
+.s-m i:hover{
+transform: 0.2s;
+cursor: pointer;
+}
+.foot-1-3{
+    margin: 0px 10px;
+    float: left;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 50px; 
+}
+.foot-1-3 li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: bolder;
+    color: white;
+    line-height: 33px;
+    font-weight: 900;
+}
+.foot-1-3 li:hover{
+    color: black;
+}
+
+.foot-2{
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 8px;
+    color: white;
+    display: grid;
+   }
+
+.foot-2 li{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
